@@ -154,7 +154,7 @@ qualifiers, this metadata does not contribute to the meaning of the core Stateme
 Using these qualifier and metadata elements together, we can build Associations with many possible ‘layers’ of complexity.
 
 Sometimes, seeing several examples of a modeling pattern is most helpful in applying the pattern to your own data.
-To peruse our examples, please visit: [Association Examples With Qualifiers](association-examples-with_qualifiers.md)
+To peruse our examples, please visit: [Association Examples With Qualifiers](association-examples-with-qualifiers.md)
 
 Please refer to [Curating the Model](curating-the-model.md) for more information about making new Associations or 
 making changes to existing Associations.
@@ -166,7 +166,7 @@ Mixins are used to extend the properties (or slots) of a class, without changing
 position in the class hierarchy.  Mixins can be extremely helpful in a number of ways: 
 - to generalize a set of attributes that can apply to classes in different parts of the class hierarchy, 
 - reduce duplication of shared attributes between classes that do not inherit from one another 
-- to prevent the sometimes confusing nature of multiple inheritance noted in the '[diamond problem]'(https://tinyurl.com/4zdw9tsb).
+- to prevent the sometimes confusing nature of multiple inheritance noted in the ['diamond problem'](https://tinyurl.com/4zdw9tsb).
 
 In general, while mixin slots and classes should not be directly instantiated, or used directly as a slot in a class,
 KGs can use them as a substitute for multiple inheritance. For example, a KG might wish to determine what are the parents
